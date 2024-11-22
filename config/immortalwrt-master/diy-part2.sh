@@ -24,8 +24,8 @@ sed -i 's/10.0..0.10/10.0.0.1/g' package/base-files/files/bin/config_generate
 #
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
-svn co https://github.com/xiaorouji/openwrt-passwall luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-passwall2 luci-app-passwall2
+svn co https://github.com/xiaorouji/openwrt-passwall package/lluci-app-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall2 package/lluci-app-passwall2
 
 
 
