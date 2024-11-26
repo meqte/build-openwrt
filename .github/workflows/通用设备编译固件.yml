@@ -191,9 +191,9 @@ jobs:
           body: |
 
             ### OpenWrt Image information
-            - Default IP: 192.168.1.1
+            - Default IP: 192.168.16.10
             - Default username: root
-            - Default password: root
+            - Default password: 
             - Default WIFI name: OpenWrt
             - Default WIFI password: none
             ### Install to EMMC
